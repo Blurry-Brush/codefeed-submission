@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Montserrat;
+    background: url("images/15005.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: auto;
+}
+
+#testimonials{
+    text-align: center;
+   
+}
+#testimonials .testimonials-main{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 3% 4% 5% 4%;
+    margin: 4% 3% 4% 3%;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.test-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name-1, .name-2, .name-3{
+    margin-top: 4%;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+
+.stylish{
+    display: flex;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.bb h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.bb,.name-1,.name-2,.name-3 h3{
+    font-weight: 500;
+}
+
+.name-1 h1{
+    color: #65C18C;
+}
+
+.name-1 h1:hover{
+    color: #9C51E0;
+}
+
+.name-2 h1{
+    color: #FFD93D;
+}
+.name-2 h1:hover{
+    color: #00AFC1;
+}
+
+.name-3 h1{
+    color: #FD5D5D;
+}
+
+.name-3 h1:hover{
+    color: #A2D5AB;
+}
+
+ /* footer */
+#footer{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#footer .container-fluid{
+    background-color: white;
+    padding: 3%;
+}
+
+.footer-icons .footer-icon{
+   margin: 3%;
+
+}
+
+.container-fluid h4{
+    font-weight: 300;
+}
+
+.footer-icons a{
+    text-decoration: none;
+}
+
+ /* hover */
+.footer-icon:hover{
+    color: black;
+}
+
+
+@media screen and (max-width: 737px){
+    .stylish{
+        display: inline-block;
+        text-align: center;
+    }
+}

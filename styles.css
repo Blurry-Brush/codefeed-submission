@@ -1,0 +1,205 @@
+body{
+    font-family: Montserrat;
+    margin: 0px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    background-color: #88E0EF;
+    color: white;
+}
+
+.navbar-buttons{
+    margin: 0 2px 0 4px;
+    width: 6rem;
+}
+.navbar-links-3{
+    background-color: #3c8cb1;
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    padding: 10px;
+    border-radius: 25px;
+}
+.btn-dark{
+    background-color: #3c8cb1;
+}
+.btn-dark:hover{
+    background-color: #035397;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+}
+
+.navbar-link:hover{
+    color: black;
+}
+
+h2{
+    font-family: "Ubuntu";
+    
+}
+
+
+/* title text */
+.title-text{
+    background-color: #88E0EF;
+}
+.title-text h1{
+    color: rgb(251, 243, 243);
+    font-size: 2.7rem;
+    font-weight: 700;
+    padding: 5% 0 0 7%;
+    line-height: 1.5;
+
+}
+.title-text p{
+    padding: 5% 0 4% 7%;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(255, 253, 253);
+
+}
+
+.title-button-1{
+    margin-left: 7%;
+    margin-right: 2%;
+}
+
+.title-text, .img-container{
+    padding-bottom: 5%;
+}
+.image-1{
+    width: 60%;
+    height: 80%;
+    border: solid 8px #035397;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-end-end-radius: 20px;
+    border-top-right-radius: 20px;
+
+    
+    
+    
+}
+
+.image-2{
+    width: 60%;
+    height: 80%;
+    border: solid 4px #035397;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-end-end-radius: 20px;
+    border-top-right-radius: 20px;
+    
+   
+}
+
+.img-container{
+    position: relative;
+}
+
+.image-1-container, .image-2-container{ 
+    background-color: #88E0EF;
+    position: absolute;
+}
+
+.image-1-container{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    z-index: 0;
+}
+
+.image-2-container{
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 75%;
+    left: 320px;
+    top: 20px;
+    z-index: 1;
+}
+
+ /* feature section */
+.feature-item{
+    padding-bottom: 4%;
+}
+#features{
+   height: 80%;
+}
+
+.test{
+    width: 100%;
+    height: 15px;
+    background-color: blueviolet;
+    
+}
+
+.verify{
+   height: 5rem;
+   width: 6rem;
+   margin-bottom: 23px; 
+}
+
+.exam{
+    height: 5rem;
+   width: 6rem;
+   margin-bottom: 25px;
+
+}
+.money{
+    height: 5rem;
+   width: 6rem;
+   margin-bottom: 24px;
+}
+
+#features{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+#features h1{
+    padding: 4%;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#features h3{
+    color: #2E4C6D;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#features p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-header{
+    background-color: #dbfff7ce;
+}
+    /* testimonials */
+
+
+
+
+
+@media screen and (max-width: 727px){
+    .navbar-links-3{
+        visibility: hidden;
+    }
+}
+
